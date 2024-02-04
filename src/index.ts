@@ -1,14 +1,6 @@
-import express from 'express';
-import { PORT } from './config/config';
+import App from './app';
+import BaseRoute from './routes/base.routes';
 
-const app = express();
+const app = new App([new BaseRoute()]);
 
-
-app.listen(PORT, () => {
-    console.log(`Server started at http://localhost:${PORT}`);
-});
-
-app.get('/', (_req, res) => {
-    res.send('Hello World!');
-});
-
+app.listen();

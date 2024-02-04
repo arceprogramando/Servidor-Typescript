@@ -20,3 +20,11 @@
 | ✅ [cross-env]   |Para ejecutar scripts que establecen y utilizan variables de entorno en diferentes plataformas.|
 | ✅ [dotenv]   |Para cargar variables de entorno desde archivos de configuración locales.|
 | ✅ [ts-node-dev] |  Proporciona un entorno de desarrollo que permite recargar automáticamente.|
+| ✅ [express-routemap] |  Proporciona una vista dinamica de los endpoints activos.|
+| ✅ [winston] |Libreria de loggin para Node. |
+| ✅ [winston-daily-rotate-file] | Rotating log file transport for Winston.|
+| ✅ [Morgan] | Transporte de registro rotativo para Winston, usado en Node.js para registrar solicitudes HTTP en aplicaciones web. |
+| ✅ [Helmet] | Middleware de seguridad para aplicaciones Express, que proporciona encabezados HTTP relacionados con la seguridad. |
+| ✅ [HPP] | Middleware que protege contra ataques de manipulación de parámetros HTTP en aplicaciones Node.js. |
+| ✅ [Cookie-Parser] | Middleware para analizar y gestionar cookies en aplicaciones Express. |
+
